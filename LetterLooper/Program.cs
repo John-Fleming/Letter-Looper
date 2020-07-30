@@ -19,7 +19,6 @@ namespace LetterLooper
                 var repeatsCreated = System.Linq.Enumerable.Repeat(theEqualizer, timesToRepeat);
                 var combinedLetters = string.Join("", repeatsCreated);
                 var result = char.ToUpper(combinedLetters[0]) + combinedLetters.Substring(1);
-                //Console.WriteLine(result);
 
                 if (letter == input[0])
                 {
